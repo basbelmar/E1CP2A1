@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Primera Página</title>
-	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/fonts.css">
 	<style type="text/css">
 		#header{
 			width: 100%;
@@ -12,7 +12,7 @@
 		}
 		#titulo{
 			text-align: center;
-			font-size: 24px;
+			font-size: 38px;
 			color: #f4b031;
 			font-family: 'El Rio Lobo';
 			line-height: 70%
@@ -32,20 +32,37 @@
 			text-align: center;
 			margin: 0px;
 		}
+		#foto img{
+			width: 100%;
+			max-width:400px;
+		}
 		#fondo{
 			width: 100%;
 			background-image: url(assets/images/cuzco2.jpg);
 			height: 700px;
 			background-repeat: no-repeat;
 			background-size: 100%;
+			margin-top: 0px;
 		}
-
+		#titulo2{
+			text-align: right;
+			font-size: 38px;
+			color: #f4b031;
+			font-family: 'El Rio Lobo';
+			line-height: 120%;
+		}
+		#texto{
+			font-size: 16px;
+			color: white;
+			text-align: right;
+		}
 		#precios{
 			width: 100%;
 			font-family: 'El Rio Lobo' ;
-
 		}
 		
+		#tituloprecios{
+		}
 
 		#alineacion{
 			text-align: left;
@@ -62,7 +79,7 @@
 		<img src="assets/images/cuzco.jpg" alt="cuzco" >
 		
 	</div>
-	<div id="fondo">
+	<div id="fondo" >
 		<p id="titulo2">Cuzco!!</p>
 		<p id="texto">Ooh sí... el veneno...<br>
 			El veneno para Cuzco...<br>
@@ -73,7 +90,7 @@
 		</p>
 	</div>
 	<div id="precios">
-		<p>Precios</p>
+		<p id="tituloprecios">Precios</p>
 		<p id="alineacion">- $10.00<br>
 			- 21.00<br>
 			-35.00
